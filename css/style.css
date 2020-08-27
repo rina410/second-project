@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.background {
+    display: block;
+    position: relative;
+}
+
+.background::after {
+    content: "";
+    background-image: url("../images/Title logo.PNG");
+    background-repeat: repeat;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+} 
+
+h1 {
+   
+    font-size: 30px;
+}
+
+p {
+    font-size: 15px;
+}
