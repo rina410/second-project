@@ -1,34 +1,3 @@
-body {
-    font-family: 'Times New Roman', Times, serif ;
-    color: black;
-}
-
-.background {
-    display: block;
-    position: relative;
-}
-
-.background::after {
-    content: "";
-    background-image: url("../images/Background-image.PNG");
-    background-repeat: repeat;
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1; 
-} 
-
-h1 {
-   
-    font-size: 40px;
-}
-
-p {
-    font-size: 20px;
-}
 img {
     float: none;
     width:  300px;
@@ -46,7 +15,7 @@ nav {
     left: 0;
     width: 100%;
     padding: .75rem;
-    background-color: #f5e3f3;
+    background-color: #bb97eb;
     z-index: 1000000000;
 }
 
@@ -58,16 +27,22 @@ nav li {
 
 .nav_item {
     /* remove the underline for a hyperlink */
+<<<<<<< HEAD
+<<<<<<< HEAD
     /* text-decoration: none; */
 }   text-decoration: none;
+=======
     text-decoration: none;
+=======
     /* text-decoration: none; */
 }
 
 .flex-container {
 
     /* Parent must have display set to flex */
+<<<<<<< HEAD
     display: flex;
+<<<<<<< HEAD
     /* Set flex-direction to row */
     flex-direction: row;
 
