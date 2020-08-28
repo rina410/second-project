@@ -10,7 +10,7 @@ body {
 
 .background::after {
     content: "";
-    background-image: url("../images/Background-image.PNG");
+    background-image: url("../Images/Background-image.PNG");
     background-repeat: repeat;
     opacity: 0.5;
     top: 0;
